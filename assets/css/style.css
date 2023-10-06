@@ -9,6 +9,15 @@
     scroll-behavior: smooth;
 }
 
+html,
+body {
+    scroll-behavior: smooth !important;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
 .container {
     max-width: 1328px !important;
 }
@@ -428,6 +437,10 @@ nav div ul li a:hover {
 
 .d_block {
     display: block !important;
+}
+
+.d_noes {
+    display: none;
 }
 
 .activecolor-size {
