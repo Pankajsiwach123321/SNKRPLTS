@@ -131,14 +131,15 @@ setTimeout(() => {
 
 function backtop() {
   window.scrollTo(0, 0);
-  document.documentElement.style.scrollBehavior = "smooth";
 }
 
 window.addEventListener("scroll", function () {
   const mybackto = document.getElementById("backtops");
   if (window.scrollY > 300) {
     mybackto.style.display = "block";
-  } else {
+    mybackto.style.background = "white";
+  }
+  else {
     mybackto.style.display = "none";
   }
 });

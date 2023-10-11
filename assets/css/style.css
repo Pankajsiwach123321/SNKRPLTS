@@ -9,13 +9,15 @@
     scroll-behavior: smooth;
 }
 
-html,
-body {
-    scroll-behavior: smooth !important;
+.backto-top {
+    height: 7%;
+    border-radius: 12px;
+    border: 1px solid black;
+    cursor: pointer;
 }
 
-html:focus-within {
-    scroll-behavior: smooth;
+.backto-top:hover {
+    background-color: red;
 }
 
 .container {
